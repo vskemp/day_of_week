@@ -15,21 +15,21 @@
 # Day (0-6)? 0
 # Sunday
 
-day = int(input("Day (0-6)?))
+day = int(input("Day (0-6)? "))
 
-if day == 0:
+if day == 1:
   print("Monday")
-elif day == 1:
-  print("Tuesday")
 elif day == 2:
-  print("Wednesday")
+  print("Tuesday")
 elif day == 3:
-  print("Thursday")
+  print("Wednesday")
 elif day == 4:
-  print("Friday")
+  print("Thursday")
 elif day == 5:
-  print("Saturday")
+  print("Friday")
 elif day == 6:
+  print("Saturday")
+elif day == 0:
   print("Sunday")
 else:
   print("Not a valid entry.")
